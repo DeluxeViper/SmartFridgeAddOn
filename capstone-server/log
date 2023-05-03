@@ -1,0 +1,1964 @@
+running update_process script
+waiting for user.json to exist
+found user.json
+{'classes': 4, 'coordinates': 4, 'anchors': [12.0, 16.0, 19.0, 36.0, 40.0, 28.0, 36.0, 75.0, 76.0, 55.0, 72.0, 146.0, 142.0, 110.0, 192.0, 243.0, 459.0, 401.0], 'anchor_masks': {'side80': [0, 1, 2], 'side40': [3, 4, 5], 'side20': [6, 7, 8]}, 'iou_threshold': 0.5, 'confidence_threshold': 0.5}
+model found
+initialized pipeline
+created manip node
+created camRGB node
+pipeline created detection network
+created nnOut output node
+created outStillRGB node for still images
+1
+2
+3
+4
+5
+6: yolov7appleorangestrawberrytomato_openvino_2021.4_6shave.blob
+7
+8
+9
+created detection network
+created nodes successfully
+Found device <depthai.Device object at 0x6eeeefc0>
+UsbSpeed.HIGH
+initialized queues
+starting update_process
+Process is now tracking the fridge door.
+Started consume frames process
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Orange, Confidence: 0.94189453125
+Object: Apple, Confidence: 0.93408203125
+Object: Apple, Confidence: 0.91748046875
+{'Orange': 1, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+Detected objects:
+Object: Apple, Confidence: 0.93408203125
+Object: Orange, Confidence: 0.91748046875
+Object: Apple, Confidence: 0.9019503593444824
+{'Orange': 1, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Orange, Confidence: 0.94287109375
+Object: Apple, Confidence: 0.93505859375
+Object: Apple, Confidence: 0.91650390625
+{'Orange': 1, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.931640625
+Object: Orange, Confidence: 0.92431640625
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Orange, Confidence: 0.94482421875
+Object: Apple, Confidence: 0.93603515625
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.931640625
+Object: Orange, Confidence: 0.8984375
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.931640625
+Object: Orange, Confidence: 0.7441520690917969
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.91650390625
+Object: Orange, Confidence: 0.8189215660095215
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9068284034729004
+Object: Orange, Confidence: 0.8201007843017578
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8990235328674316
+Object: Orange, Confidence: 0.8573799133300781
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Orange, Confidence: 0.7939896583557129
+{'Orange': 1, 'Apple': 0, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Orange, Confidence: 0.7482211589813232
+{'Orange': 1, 'Apple': 0, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.6888093948364258
+Object: Orange, Confidence: 0.6386146545410156
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.7395386695861816
+Object: Orange, Confidence: 0.5998833179473877
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.7636070251464844
+Object: Apple, Confidence: 0.7157325744628906
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8295831680297852
+Object: Apple, Confidence: 0.7843894958496094
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.6735801696777344
+Object: Orange, Confidence: 0.5962600708007812
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Orange, Confidence: 0.7072043418884277
+Object: Apple, Confidence: 0.6679058074951172
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8975601196289062
+Object: Apple, Confidence: 0.5308647155761719
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9050555229187012
+Object: Orange, Confidence: 0.8468284606933594
+Object: Tomato, Confidence: 0.7834649085998535
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 1}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9052734375
+Object: Apple, Confidence: 0.8347921371459961
+Object: Tomato, Confidence: 0.7339146137237549
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 1}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9052734375
+Object: Apple, Confidence: 0.7458429336547852
+Object: Apple, Confidence: 0.5728003978729248
+{'Orange': 0, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.90380859375
+Object: Orange, Confidence: 0.7896718978881836
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.900390625
+Object: Orange, Confidence: 0.7611751556396484
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9089503288269043
+Object: Orange, Confidence: 0.6115179061889648
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.900390625
+Object: Apple, Confidence: 0.7565116882324219
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.906029224395752
+Object: Tomato, Confidence: 0.8063406944274902
+Object: Orange, Confidence: 0.7945404052734375
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 1}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.90380859375
+Object: Tomato, Confidence: 0.81005859375
+{'Orange': 0, 'Apple': 1, 'Strawberry': 0, 'Tomato': 1}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9089503288269043
+Object: Tomato, Confidence: 0.8017578125
+Object: Apple, Confidence: 0.5905303955078125
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 1}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9036827087402344
+Object: Orange, Confidence: 0.6559228897094727
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.900390625
+{'Orange': 0, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.92333984375
+Object: Apple, Confidence: 0.9150390625
+Object: Tomato, Confidence: 0.6388664245605469
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 1}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9150390625
+Object: Tomato, Confidence: 0.8029260635375977
+Object: Orange, Confidence: 0.8026285171508789
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 1}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9234137535095215
+Object: Tomato, Confidence: 0.8187239170074463
+Object: Apple, Confidence: 0.5189933776855469
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 1}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9302430152893066
+Object: Orange, Confidence: 0.8206596374511719
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9248771667480469
+Object: Apple, Confidence: 0.9091796875
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9248771667480469
+Object: Apple, Confidence: 0.6934843063354492
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Orange, Confidence: 0.93359375
+{'Orange': 1, 'Apple': 0, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.5166835784912109
+{'Orange': 0, 'Apple': 1, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Orange, Confidence: 0.8503866195678711
+{'Orange': 1, 'Apple': 0, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.916015625
+Object: Apple, Confidence: 0.8682918548583984
+Object: Apple, Confidence: 0.8391780853271484
+{'Orange': 0, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9140625
+Object: Apple, Confidence: 0.8308935165405273
+Object: Apple, Confidence: 0.6362431049346924
+{'Orange': 0, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.927734375
+Object: Orange, Confidence: 0.9248046875
+Object: Apple, Confidence: 0.8624382019042969
+{'Orange': 1, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.919921875
+Object: Apple, Confidence: 0.7923030853271484
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9091796875
+Object: Apple, Confidence: 0.8804869651794434
+Object: Apple, Confidence: 0.8741455078125
+{'Orange': 0, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.916015625
+Object: Apple, Confidence: 0.8819503784179688
+Object: Apple, Confidence: 0.6166677474975586
+{'Orange': 0, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.91943359375
+Object: Apple, Confidence: 0.8697552680969238
+Object: Apple, Confidence: 0.5086679458618164
+{'Orange': 0, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.91845703125
+Object: Apple, Confidence: 0.850243091583252
+Object: Apple, Confidence: 0.5455226898193359
+{'Orange': 0, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.860133171081543
+Object: Tomato, Confidence: 0.684814453125
+Object: Tomato, Confidence: 0.5771298408508301
+{'Orange': 0, 'Apple': 1, 'Strawberry': 0, 'Tomato': 2}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.869267463684082
+Object: Apple, Confidence: 0.7412779331207275
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.7757663726806641
+Object: Apple, Confidence: 0.7467455863952637
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.7650222778320312
+Object: Apple, Confidence: 0.7581901550292969
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.7804217338562012
+Object: Apple, Confidence: 0.744049072265625
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8565845489501953
+Object: Apple, Confidence: 0.7716045379638672
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.7474136352539062
+Object: Apple, Confidence: 0.6664819717407227
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.7474136352539062
+Object: Apple, Confidence: 0.6986007690429688
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8222908973693848
+Object: Apple, Confidence: 0.7537126541137695
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.7820892333984375
+Object: Apple, Confidence: 0.7388134002685547
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8741455078125
+Object: Strawberry, Confidence: 0.8143243789672852
+Object: Apple, Confidence: 0.7753515243530273
+{'Orange': 0, 'Apple': 2, 'Strawberry': 1, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8941454887390137
+Object: Apple, Confidence: 0.7686891555786133
+Object: Apple, Confidence: 0.7278738021850586
+Object: Apple, Confidence: 0.6296768188476562
+{'Orange': 0, 'Apple': 4, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Strawberry, Confidence: 0.840487003326416
+Object: Apple, Confidence: 0.779304027557373
+Object: Apple, Confidence: 0.715240478515625
+{'Orange': 0, 'Apple': 2, 'Strawberry': 1, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8089637756347656
+Object: Strawberry, Confidence: 0.7958993911743164
+Object: Apple, Confidence: 0.7411110401153564
+{'Orange': 0, 'Apple': 2, 'Strawberry': 1, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Strawberry, Confidence: 0.8430767059326172
+Object: Apple, Confidence: 0.7605133056640625
+Object: Apple, Confidence: 0.618896484375
+{'Orange': 0, 'Apple': 2, 'Strawberry': 1, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.7656717300415039
+Object: Apple, Confidence: 0.7366199493408203
+Object: Apple, Confidence: 0.6414985656738281
+{'Orange': 0, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Strawberry, Confidence: 0.832672119140625
+Object: Strawberry, Confidence: 0.8060398101806641
+Object: Apple, Confidence: 0.7719635963439941
+Object: Apple, Confidence: 0.5380630493164062
+{'Orange': 0, 'Apple': 2, 'Strawberry': 2, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.7720904350280762
+Object: Apple, Confidence: 0.7656717300415039
+Object: Strawberry, Confidence: 0.6958103179931641
+Object: Apple, Confidence: 0.6337451934814453
+{'Orange': 0, 'Apple': 3, 'Strawberry': 1, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8372287750244141
+Object: Strawberry, Confidence: 0.7923946380615234
+Object: Strawberry, Confidence: 0.7691993713378906
+Object: Apple, Confidence: 0.7656717300415039
+{'Orange': 0, 'Apple': 2, 'Strawberry': 2, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Strawberry, Confidence: 0.8674430847167969
+Object: Apple, Confidence: 0.8595113754272461
+Object: Strawberry, Confidence: 0.8287796974182129
+Object: Apple, Confidence: 0.7892932891845703
+{'Orange': 0, 'Apple': 2, 'Strawberry': 2, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9068284034729004
+Object: Apple, Confidence: 0.8048772811889648
+Object: Apple, Confidence: 0.7882919311523438
+Object: Strawberry, Confidence: 0.7657790184020996
+Object: Apple, Confidence: 0.6281533241271973
+{'Orange': 0, 'Apple': 4, 'Strawberry': 1, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8912186622619629
+Object: Apple, Confidence: 0.8224382400512695
+Object: Apple, Confidence: 0.8019504547119141
+Object: Apple, Confidence: 0.7541317939758301
+Object: Strawberry, Confidence: 0.6071233749389648
+{'Orange': 0, 'Apple': 4, 'Strawberry': 1, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8804869651794434
+Object: Strawberry, Confidence: 0.873291015625
+Object: Strawberry, Confidence: 0.8468284606933594
+Object: Apple, Confidence: 0.7860593795776367
+Object: Orange, Confidence: 0.5455336570739746
+{'Orange': 1, 'Apple': 2, 'Strawberry': 2, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Strawberry, Confidence: 0.835608959197998
+Object: Apple, Confidence: 0.8146333694458008
+Object: Apple, Confidence: 0.7704424858093262
+Object: Strawberry, Confidence: 0.7494144439697266
+{'Orange': 0, 'Apple': 2, 'Strawberry': 2, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Strawberry, Confidence: 0.838047981262207
+Object: Apple, Confidence: 0.8216342926025391
+Object: Apple, Confidence: 0.7678184509277344
+Object: Strawberry, Confidence: 0.750154972076416
+{'Orange': 0, 'Apple': 2, 'Strawberry': 2, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8317065238952637
+Object: Apple, Confidence: 0.8239016532897949
+Object: Apple, Confidence: 0.7818822860717773
+{'Orange': 0, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8780479431152344
+Object: Apple, Confidence: 0.7893848419189453
+Object: Apple, Confidence: 0.6164693832397461
+{'Orange': 0, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.7555699348449707
+Object: Apple, Confidence: 0.7423815727233887
+Object: Apple, Confidence: 0.5545206069946289
+{'Orange': 0, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8494119644165039
+Object: Apple, Confidence: 0.7690596580505371
+Object: Strawberry, Confidence: 0.6134533882141113
+{'Orange': 0, 'Apple': 2, 'Strawberry': 1, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.844538688659668
+Object: Apple, Confidence: 0.7844390869140625
+Object: Apple, Confidence: 0.5145549774169922
+{'Orange': 0, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.855259895324707
+Object: Apple, Confidence: 0.7313251495361328
+{'Orange': 0, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8741455078125
+Object: Apple, Confidence: 0.7029304504394531
+Object: Apple, Confidence: 0.5956206321716309
+{'Orange': 0, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8974609375
+Object: Apple, Confidence: 0.8625698089599609
+Object: Apple, Confidence: 0.804389476776123
+Object: Orange, Confidence: 0.6893181800842285
+{'Orange': 1, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.900390625
+Object: Apple, Confidence: 0.8609747886657715
+Object: Orange, Confidence: 0.857421875
+Object: Apple, Confidence: 0.7478041648864746
+{'Orange': 1, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.89111328125
+Object: Apple, Confidence: 0.8858528137207031
+Object: Apple, Confidence: 0.804389476776123
+Object: Strawberry, Confidence: 0.5029220581054688
+{'Orange': 0, 'Apple': 3, 'Strawberry': 1, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.89892578125
+Object: Apple, Confidence: 0.8804869651794434
+Object: Orange, Confidence: 0.87451171875
+Object: Apple, Confidence: 0.7568197250366211
+Object: Strawberry, Confidence: 0.6193933486938477
+{'Orange': 1, 'Apple': 3, 'Strawberry': 1, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8984375
+Object: Apple, Confidence: 0.7897787094116211
+Object: Apple, Confidence: 0.7351212501525879
+Object: Strawberry, Confidence: 0.5175418853759766
+{'Orange': 0, 'Apple': 3, 'Strawberry': 1, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.90234375
+Object: Apple, Confidence: 0.8760967254638672
+Object: Apple, Confidence: 0.8134765625
+Object: Orange, Confidence: 0.5223050117492676
+{'Orange': 1, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.8984375
+Object: Apple, Confidence: 0.8542852401733398
+Object: Apple, Confidence: 0.7839016914367676
+Object: Orange, Confidence: 0.7349395751953125
+{'Orange': 1, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.896484375
+Object: Apple, Confidence: 0.8721942901611328
+Object: Apple, Confidence: 0.7626676559448242
+Object: Strawberry, Confidence: 0.6929798126220703
+Object: Orange, Confidence: 0.6861572265625
+{'Orange': 1, 'Apple': 3, 'Strawberry': 1, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.896484375
+Object: Apple, Confidence: 0.8518486022949219
+Object: Apple, Confidence: 0.8359375
+{'Orange': 0, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.90380859375
+Object: Orange, Confidence: 0.876953125
+Object: Apple, Confidence: 0.8697552680969238
+Object: Strawberry, Confidence: 0.7936577796936035
+Object: Apple, Confidence: 0.7664785385131836
+{'Orange': 1, 'Apple': 3, 'Strawberry': 1, 'Tomato': 0}
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.89990234375
+Object: Apple, Confidence: 0.8244037628173828
+Object: Apple, Confidence: 0.7658529281616211
+Object: Orange, Confidence: 0.7197685241699219
+{'Orange': 1, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+Exception in thread Thread-367:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 162, in error_remapped_callable
+    return _StreamingResponseIterator(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 88, in __init__
+    self._stored_first_result = next(self._wrapped)
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 475, in __next__
+    return self._next()
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 881, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable"
+	debug_error_string = "UNKNOWN:failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable {grpc_status:14, created_time:"2023-04-28T17:19:30.287819903+01:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 191, in retry_target
+    return target()
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 166, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ServiceUnavailable: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/user/capstone-server/./update_process.py", line 226, in update_fridge_data
+    fridge = readFridge(user_credentials['user_id'],user_credentials['fridge_id'])
+  File "/home/user/capstone-server/data/fridge_repository.py", line 29, in readFridge
+    return doc_ref.get().to_dict()
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/document.py", line 403, in get
+    response_iter = self._client._firestore_api.batch_get_documents(
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/services/firestore/client.py", line 910, in batch_get_documents
+    response = rpc(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/gapic_v1/method.py", line 113, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 349, in retry_wrapped_func
+    return retry_target(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 207, in retry_target
+    raise exceptions.RetryError(
+google.api_core.exceptions.RetryError: Deadline of 300.0s exceeded while calling target function, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Orange, Confidence: 0.92578125
+Object: Apple, Confidence: 0.89453125
+Object: Apple, Confidence: 0.8619503974914551
+Object: Strawberry, Confidence: 0.8541455268859863
+{'Orange': 1, 'Apple': 2, 'Strawberry': 1, 'Tomato': 0}
+Exception in thread Thread-398:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 162, in error_remapped_callable
+    return _StreamingResponseIterator(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 88, in __init__
+    self._stored_first_result = next(self._wrapped)
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 475, in __next__
+    return self._next()
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 881, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable"
+	debug_error_string = "UNKNOWN:failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable {created_time:"2023-04-28T17:27:07.24157207+01:00", grpc_status:14}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 191, in retry_target
+    return target()
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 166, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ServiceUnavailable: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/user/capstone-server/./update_process.py", line 226, in update_fridge_data
+    fridge = readFridge(user_credentials['user_id'],user_credentials['fridge_id'])
+  File "/home/user/capstone-server/data/fridge_repository.py", line 29, in readFridge
+    return doc_ref.get().to_dict()
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/document.py", line 403, in get
+    response_iter = self._client._firestore_api.batch_get_documents(
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/services/firestore/client.py", line 910, in batch_get_documents
+    response = rpc(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/gapic_v1/method.py", line 113, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 349, in retry_wrapped_func
+    return retry_target(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 207, in retry_target
+    raise exceptions.RetryError(
+google.api_core.exceptions.RetryError: Deadline of 300.0s exceeded while calling target function, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9111328125
+Object: Orange, Confidence: 0.8818359375
+Object: Apple, Confidence: 0.8663406372070312
+Object: Strawberry, Confidence: 0.7351212501525879
+{'Orange': 1, 'Apple': 2, 'Strawberry': 1, 'Tomato': 0}
+Exception in thread Thread-429:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 162, in error_remapped_callable
+    return _StreamingResponseIterator(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 88, in __init__
+    self._stored_first_result = next(self._wrapped)
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 475, in __next__
+    return self._next()
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 881, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable"
+	debug_error_string = "UNKNOWN:failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable {created_time:"2023-04-28T17:31:58.077369977+01:00", grpc_status:14}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 191, in retry_target
+    return target()
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 166, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ServiceUnavailable: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/user/capstone-server/./update_process.py", line 226, in update_fridge_data
+    fridge = readFridge(user_credentials['user_id'],user_credentials['fridge_id'])
+  File "/home/user/capstone-server/data/fridge_repository.py", line 29, in readFridge
+    return doc_ref.get().to_dict()
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/document.py", line 403, in get
+    response_iter = self._client._firestore_api.batch_get_documents(
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/services/firestore/client.py", line 910, in batch_get_documents
+    response = rpc(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/gapic_v1/method.py", line 113, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 349, in retry_wrapped_func
+    return retry_target(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 207, in retry_target
+    raise exceptions.RetryError(
+google.api_core.exceptions.RetryError: Deadline of 300.0s exceeded while calling target function, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.91162109375
+Object: Apple, Confidence: 0.7407493591308594
+Object: Orange, Confidence: 0.6837573051452637
+{'Orange': 1, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+Exception in thread Thread-460:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 162, in error_remapped_callable
+    return _StreamingResponseIterator(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 88, in __init__
+    self._stored_first_result = next(self._wrapped)
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 475, in __next__
+    return self._next()
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 864, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable"
+	debug_error_string = "UNKNOWN:failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable {created_time:"2023-04-28T17:37:36.391316592+01:00", grpc_status:14}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 191, in retry_target
+    return target()
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 166, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ServiceUnavailable: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/user/capstone-server/./update_process.py", line 226, in update_fridge_data
+    fridge = readFridge(user_credentials['user_id'],user_credentials['fridge_id'])
+  File "/home/user/capstone-server/data/fridge_repository.py", line 29, in readFridge
+    return doc_ref.get().to_dict()
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/document.py", line 403, in get
+    response_iter = self._client._firestore_api.batch_get_documents(
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/services/firestore/client.py", line 910, in batch_get_documents
+    response = rpc(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/gapic_v1/method.py", line 113, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 349, in retry_wrapped_func
+    return retry_target(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 207, in retry_target
+    raise exceptions.RetryError(
+google.api_core.exceptions.RetryError: Deadline of 300.0s exceeded while calling target function, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Orange, Confidence: 0.931640625
+Object: Apple, Confidence: 0.91845703125
+Object: Tomato, Confidence: 0.7681717872619629
+{'Orange': 1, 'Apple': 1, 'Strawberry': 0, 'Tomato': 1}
+Exception in thread Thread-492:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 162, in error_remapped_callable
+    return _StreamingResponseIterator(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 88, in __init__
+    self._stored_first_result = next(self._wrapped)
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 475, in __next__
+    return self._next()
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 881, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable"
+	debug_error_string = "UNKNOWN:failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable {grpc_status:14, created_time:"2023-04-28T17:45:38.921869005+01:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 191, in retry_target
+    return target()
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 166, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ServiceUnavailable: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/user/capstone-server/./update_process.py", line 226, in update_fridge_data
+    fridge = readFridge(user_credentials['user_id'],user_credentials['fridge_id'])
+  File "/home/user/capstone-server/data/fridge_repository.py", line 29, in readFridge
+    return doc_ref.get().to_dict()
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/document.py", line 403, in get
+    response_iter = self._client._firestore_api.batch_get_documents(
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/services/firestore/client.py", line 910, in batch_get_documents
+    response = rpc(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/gapic_v1/method.py", line 113, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 349, in retry_wrapped_func
+    return retry_target(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 207, in retry_target
+    raise exceptions.RetryError(
+google.api_core.exceptions.RetryError: Deadline of 300.0s exceeded while calling target function, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Orange, Confidence: 0.92919921875
+Object: Apple, Confidence: 0.91015625
+Object: Apple, Confidence: 0.8956089019775391
+{'Orange': 1, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+Exception in thread Thread-528:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 162, in error_remapped_callable
+    return _StreamingResponseIterator(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 88, in __init__
+    self._stored_first_result = next(self._wrapped)
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 475, in __next__
+    return self._next()
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 864, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable"
+	debug_error_string = "UNKNOWN:failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable {created_time:"2023-04-28T17:50:06.641101516+01:00", grpc_status:14}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 191, in retry_target
+    return target()
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 166, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ServiceUnavailable: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/user/capstone-server/./update_process.py", line 226, in update_fridge_data
+    fridge = readFridge(user_credentials['user_id'],user_credentials['fridge_id'])
+  File "/home/user/capstone-server/data/fridge_repository.py", line 29, in readFridge
+    return doc_ref.get().to_dict()
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/document.py", line 403, in get
+    response_iter = self._client._firestore_api.batch_get_documents(
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/services/firestore/client.py", line 910, in batch_get_documents
+    response = rpc(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/gapic_v1/method.py", line 113, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 349, in retry_wrapped_func
+    return retry_target(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 207, in retry_target
+    raise exceptions.RetryError(
+google.api_core.exceptions.RetryError: Deadline of 300.0s exceeded while calling target function, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.919921875
+Object: Apple, Confidence: 0.8819503784179688
+Object: Orange, Confidence: 0.8125
+{'Orange': 1, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+Exception in thread Thread-561:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 162, in error_remapped_callable
+    return _StreamingResponseIterator(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 88, in __init__
+    self._stored_first_result = next(self._wrapped)
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 475, in __next__
+    return self._next()
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 881, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable"
+	debug_error_string = "UNKNOWN:failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable {grpc_status:14, created_time:"2023-04-28T17:55:36.95381914+01:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 191, in retry_target
+    return target()
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 166, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ServiceUnavailable: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/user/capstone-server/./update_process.py", line 226, in update_fridge_data
+    fridge = readFridge(user_credentials['user_id'],user_credentials['fridge_id'])
+  File "/home/user/capstone-server/data/fridge_repository.py", line 29, in readFridge
+    return doc_ref.get().to_dict()
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/document.py", line 403, in get
+    response_iter = self._client._firestore_api.batch_get_documents(
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/services/firestore/client.py", line 910, in batch_get_documents
+    response = rpc(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/gapic_v1/method.py", line 113, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 349, in retry_wrapped_func
+    return retry_target(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 207, in retry_target
+    raise exceptions.RetryError(
+google.api_core.exceptions.RetryError: Deadline of 300.0s exceeded while calling target function, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.92236328125
+Object: Orange, Confidence: 0.9111328125
+Object: Apple, Confidence: 0.8834137916564941
+Object: Strawberry, Confidence: 0.655609130859375
+{'Orange': 1, 'Apple': 2, 'Strawberry': 1, 'Tomato': 0}
+Exception in thread Thread-592:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 162, in error_remapped_callable
+    return _StreamingResponseIterator(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 88, in __init__
+    self._stored_first_result = next(self._wrapped)
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 475, in __next__
+    return self._next()
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 881, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.DEADLINE_EXCEEDED
+	details = "Deadline Exceeded"
+	debug_error_string = "UNKNOWN:Deadline Exceeded {grpc_status:4, created_time:"2023-04-28T18:03:35.733844076+01:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 191, in retry_target
+    return target()
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 166, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.DeadlineExceeded: 504 Deadline Exceeded
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/user/capstone-server/./update_process.py", line 226, in update_fridge_data
+    fridge = readFridge(user_credentials['user_id'],user_credentials['fridge_id'])
+  File "/home/user/capstone-server/data/fridge_repository.py", line 29, in readFridge
+    return doc_ref.get().to_dict()
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/document.py", line 403, in get
+    response_iter = self._client._firestore_api.batch_get_documents(
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/services/firestore/client.py", line 910, in batch_get_documents
+    response = rpc(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/gapic_v1/method.py", line 113, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 349, in retry_wrapped_func
+    return retry_target(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 207, in retry_target
+    raise exceptions.RetryError(
+google.api_core.exceptions.RetryError: Deadline of 300.0s exceeded while calling target function, last exception: 504 Deadline Exceeded
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Orange, Confidence: 0.927734375
+Object: Apple, Confidence: 0.91357421875
+Object: Apple, Confidence: 0.8619503974914551
+Object: Strawberry, Confidence: 0.65496826171875
+{'Orange': 1, 'Apple': 2, 'Strawberry': 1, 'Tomato': 0}
+Exception in thread Thread-621:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 162, in error_remapped_callable
+    return _StreamingResponseIterator(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 88, in __init__
+    self._stored_first_result = next(self._wrapped)
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 475, in __next__
+    return self._next()
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 881, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable"
+	debug_error_string = "UNKNOWN:failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable {created_time:"2023-04-28T18:26:57.399725322+01:00", grpc_status:14}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 191, in retry_target
+    return target()
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 166, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ServiceUnavailable: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/user/capstone-server/./update_process.py", line 226, in update_fridge_data
+    fridge = readFridge(user_credentials['user_id'],user_credentials['fridge_id'])
+  File "/home/user/capstone-server/data/fridge_repository.py", line 29, in readFridge
+    return doc_ref.get().to_dict()
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/document.py", line 403, in get
+    response_iter = self._client._firestore_api.batch_get_documents(
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/services/firestore/client.py", line 910, in batch_get_documents
+    response = rpc(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/gapic_v1/method.py", line 113, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 349, in retry_wrapped_func
+    return retry_target(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 207, in retry_target
+    raise exceptions.RetryError(
+google.api_core.exceptions.RetryError: Deadline of 300.0s exceeded while calling target function, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Orange, Confidence: 0.91357421875
+Object: Apple, Confidence: 0.90234375
+Object: Apple, Confidence: 0.8425893783569336
+{'Orange': 1, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+Exception in thread Thread-655:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 162, in error_remapped_callable
+    return _StreamingResponseIterator(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 88, in __init__
+    self._stored_first_result = next(self._wrapped)
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 475, in __next__
+    return self._next()
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 881, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable"
+	debug_error_string = "UNKNOWN:failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable {created_time:"2023-04-28T18:43:34.387570401+01:00", grpc_status:14}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 191, in retry_target
+    return target()
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 166, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ServiceUnavailable: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/user/capstone-server/./update_process.py", line 226, in update_fridge_data
+    fridge = readFridge(user_credentials['user_id'],user_credentials['fridge_id'])
+  File "/home/user/capstone-server/data/fridge_repository.py", line 29, in readFridge
+    return doc_ref.get().to_dict()
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/document.py", line 403, in get
+    response_iter = self._client._firestore_api.batch_get_documents(
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/services/firestore/client.py", line 910, in batch_get_documents
+    response = rpc(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/gapic_v1/method.py", line 113, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 349, in retry_wrapped_func
+    return retry_target(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 207, in retry_target
+    raise exceptions.RetryError(
+google.api_core.exceptions.RetryError: Deadline of 300.0s exceeded while calling target function, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Orange, Confidence: 0.9267578125
+Object: Apple, Confidence: 0.9084634780883789
+Object: Apple, Confidence: 0.8624382019042969
+{'Orange': 1, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+Exception in thread Thread-686:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 162, in error_remapped_callable
+    return _StreamingResponseIterator(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 88, in __init__
+    self._stored_first_result = next(self._wrapped)
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 475, in __next__
+    return self._next()
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 864, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable"
+	debug_error_string = "UNKNOWN:failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable {created_time:"2023-04-28T19:20:52.30724894+01:00", grpc_status:14}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 191, in retry_target
+    return target()
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 166, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ServiceUnavailable: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/user/capstone-server/./update_process.py", line 226, in update_fridge_data
+    fridge = readFridge(user_credentials['user_id'],user_credentials['fridge_id'])
+  File "/home/user/capstone-server/data/fridge_repository.py", line 29, in readFridge
+    return doc_ref.get().to_dict()
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/document.py", line 403, in get
+    response_iter = self._client._firestore_api.batch_get_documents(
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/services/firestore/client.py", line 910, in batch_get_documents
+    response = rpc(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/gapic_v1/method.py", line 113, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 349, in retry_wrapped_func
+    return retry_target(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 207, in retry_target
+    raise exceptions.RetryError(
+google.api_core.exceptions.RetryError: Deadline of 300.0s exceeded while calling target function, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9052734375
+Object: Orange, Confidence: 0.8541455268859863
+Object: Apple, Confidence: 0.563762903213501
+{'Orange': 1, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+Exception in thread Thread-715:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 162, in error_remapped_callable
+    return _StreamingResponseIterator(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 88, in __init__
+    self._stored_first_result = next(self._wrapped)
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 475, in __next__
+    return self._next()
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 881, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable"
+	debug_error_string = "UNKNOWN:failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable {created_time:"2023-04-28T19:31:38.417892201+01:00", grpc_status:14}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 191, in retry_target
+    return target()
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 166, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ServiceUnavailable: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/user/capstone-server/./update_process.py", line 226, in update_fridge_data
+    fridge = readFridge(user_credentials['user_id'],user_credentials['fridge_id'])
+  File "/home/user/capstone-server/data/fridge_repository.py", line 29, in readFridge
+    return doc_ref.get().to_dict()
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/document.py", line 403, in get
+    response_iter = self._client._firestore_api.batch_get_documents(
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/services/firestore/client.py", line 910, in batch_get_documents
+    response = rpc(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/gapic_v1/method.py", line 113, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 349, in retry_wrapped_func
+    return retry_target(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 207, in retry_target
+    raise exceptions.RetryError(
+google.api_core.exceptions.RetryError: Deadline of 300.0s exceeded while calling target function, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9111328125
+Object: Apple, Confidence: 0.8625698089599609
+Object: Apple, Confidence: 0.5145454406738281
+{'Orange': 0, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+Exception in thread Thread-748:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 162, in error_remapped_callable
+    return _StreamingResponseIterator(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 88, in __init__
+    self._stored_first_result = next(self._wrapped)
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 475, in __next__
+    return self._next()
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 881, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable"
+	debug_error_string = "UNKNOWN:failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable {grpc_status:14, created_time:"2023-04-28T19:40:48.913747539+01:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 191, in retry_target
+    return target()
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 166, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ServiceUnavailable: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/user/capstone-server/./update_process.py", line 226, in update_fridge_data
+    fridge = readFridge(user_credentials['user_id'],user_credentials['fridge_id'])
+  File "/home/user/capstone-server/data/fridge_repository.py", line 29, in readFridge
+    return doc_ref.get().to_dict()
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/document.py", line 403, in get
+    response_iter = self._client._firestore_api.batch_get_documents(
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/services/firestore/client.py", line 910, in batch_get_documents
+    response = rpc(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/gapic_v1/method.py", line 113, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 349, in retry_wrapped_func
+    return retry_target(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 207, in retry_target
+    raise exceptions.RetryError(
+google.api_core.exceptions.RetryError: Deadline of 300.0s exceeded while calling target function, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9156088829040527
+Object: Apple, Confidence: 0.9091796875
+Object: Apple, Confidence: 0.8603515625
+{'Orange': 0, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+Exception in thread Thread-780:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 162, in error_remapped_callable
+    return _StreamingResponseIterator(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 88, in __init__
+    self._stored_first_result = next(self._wrapped)
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 475, in __next__
+    return self._next()
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 881, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable"
+	debug_error_string = "UNKNOWN:failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable {created_time:"2023-04-28T19:49:01.670736875+01:00", grpc_status:14}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 191, in retry_target
+    return target()
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 166, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ServiceUnavailable: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/user/capstone-server/./update_process.py", line 226, in update_fridge_data
+    fridge = readFridge(user_credentials['user_id'],user_credentials['fridge_id'])
+  File "/home/user/capstone-server/data/fridge_repository.py", line 29, in readFridge
+    return doc_ref.get().to_dict()
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/document.py", line 403, in get
+    response_iter = self._client._firestore_api.batch_get_documents(
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/services/firestore/client.py", line 910, in batch_get_documents
+    response = rpc(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/gapic_v1/method.py", line 113, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 349, in retry_wrapped_func
+    return retry_target(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 207, in retry_target
+    raise exceptions.RetryError(
+google.api_core.exceptions.RetryError: Deadline of 300.0s exceeded while calling target function, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9138188362121582
+Object: Apple, Confidence: 0.8659811019897461
+Object: Orange, Confidence: 0.6449747085571289
+{'Orange': 1, 'Apple': 2, 'Strawberry': 0, 'Tomato': 0}
+Exception in thread Thread-812:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 162, in error_remapped_callable
+    return _StreamingResponseIterator(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 88, in __init__
+    self._stored_first_result = next(self._wrapped)
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 475, in __next__
+    return self._next()
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 881, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable"
+	debug_error_string = "UNKNOWN:failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable {grpc_status:14, created_time:"2023-04-28T19:53:32.850961314+01:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 191, in retry_target
+    return target()
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 166, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ServiceUnavailable: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/user/capstone-server/./update_process.py", line 226, in update_fridge_data
+    fridge = readFridge(user_credentials['user_id'],user_credentials['fridge_id'])
+  File "/home/user/capstone-server/data/fridge_repository.py", line 29, in readFridge
+    return doc_ref.get().to_dict()
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/document.py", line 403, in get
+    response_iter = self._client._firestore_api.batch_get_documents(
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/services/firestore/client.py", line 910, in batch_get_documents
+    response = rpc(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/gapic_v1/method.py", line 113, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 349, in retry_wrapped_func
+    return retry_target(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 207, in retry_target
+    raise exceptions.RetryError(
+google.api_core.exceptions.RetryError: Deadline of 300.0s exceeded while calling target function, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+updating firebase objects
+finished updating firebase objects
+Door was closed. Updating Fridge.
+Attempting to object detect
+in still frame
+Captured frame:  640 640 Type.BGR888p
+Detected objects:
+Object: Apple, Confidence: 0.9267578125
+Object: Apple, Confidence: 0.9239015579223633
+Object: Apple, Confidence: 0.89990234375
+{'Orange': 0, 'Apple': 3, 'Strawberry': 0, 'Tomato': 0}
+Exception in thread Thread-845:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 162, in error_remapped_callable
+    return _StreamingResponseIterator(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 88, in __init__
+    self._stored_first_result = next(self._wrapped)
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 475, in __next__
+    return self._next()
+  File "/usr/local/lib/python3.9/dist-packages/grpc/_channel.py", line 881, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable"
+	debug_error_string = "UNKNOWN:failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable {grpc_status:14, created_time:"2023-04-28T19:59:27.541901708+01:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 191, in retry_target
+    return target()
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py", line 166, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ServiceUnavailable: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.9/threading.py", line 892, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/user/capstone-server/./update_process.py", line 226, in update_fridge_data
+    fridge = readFridge(user_credentials['user_id'],user_credentials['fridge_id'])
+  File "/home/user/capstone-server/data/fridge_repository.py", line 29, in readFridge
+    return doc_ref.get().to_dict()
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/document.py", line 403, in get
+    response_iter = self._client._firestore_api.batch_get_documents(
+  File "/usr/local/lib/python3.9/dist-packages/google/cloud/firestore_v1/services/firestore/client.py", line 910, in batch_get_documents
+    response = rpc(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/gapic_v1/method.py", line 113, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 349, in retry_wrapped_func
+    return retry_target(
+  File "/usr/local/lib/python3.9/dist-packages/google/api_core/retry.py", line 207, in retry_target
+    raise exceptions.RetryError(
+google.api_core.exceptions.RetryError: Deadline of 300.0s exceeded while calling target function, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B2607:f8b0:400b:803::200a%5D:443: Network is unreachable
