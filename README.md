@@ -5,7 +5,6 @@ Credits to my capstone group members: @vargheserg (TODO: add other members)
 
 ## TLDR
 - This project exhibits an add-on gadget that makes any ordinary smart
-- **Web Application** -> allows you to register and monitor a fridge through the gadget
 - **Software**
    - *Web Application* -> a web application that allows the user to view & count detected ingredients, in addition to view recipe recommendations -- built through React + Firebase Auth + Firestore cloud firestore database
    - *Flask server* -> a flask server that lives on the device that is used to register and deregister fridges for users
