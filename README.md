@@ -4,9 +4,10 @@
 
 My Computer Engineering undergraduate capstone project - A device that can make a fridge smart through ingredient detection and recipe recommendation.
 
+Credits to my capstone group members: @vargheserg, @Brian-kyoudong-lee
+
 <img src="https://user-images.githubusercontent.com/60635737/235825009-8d54c7c8-03c2-4646-8a81-04571b2ad245.png"  width="500" height="400">
 
-Credits to my capstone group members: @vargheserg (TODO: add other members)
 
 ## TLDR
 
@@ -37,25 +38,23 @@ Technologies utilizing the Internet of Things (IoT) have been exponentially grow
 ### Machine Learning features
 - On-device ML model deployment (able to deploy a 300MB YOLOv7 model on a Raspberry Pi 2 W)
 - State-of-the-art YOLOv7 model used for object detection
-- Custom trained YOLOv7 model
-
-### Web Application features
+- Custom labelled dataset for YOLOv7 model
 - 
-- Low-powerered embedded system (only 5.4 Watts on average)
-- Smart image capture (when the fridge door closes)
+
+### Software features
+- Smart image capture (when the fridge door closes) via still image object detection through Luxonis SDK
 - Once registered, you can access your fridge from anywhere
-- Cloud-based connection, no bluetooth required
 
 ### Hardware features
-- Custom mounting design (both hangs on fridge door and can stick to fridge)
+- Low-powerered embedded system (only 5.4 Watts on average)
+- 2 custom mounting designs (both hangs on fridge door and can stick to fridge)
+- Cloud-based connection, no bluetooth required
 
 
 
 ## Technical Design
 
 ### Machine Learning
-
-Credit to myself for leading this portion.
 
 #### Machine Learning Model Choice
 
@@ -86,15 +85,38 @@ Roboflow was the main application of choice as once the dataset was categorized,
 [Orange & Apple & Tomato & Strawberry dataset](https://universe.roboflow.com/deluxeviper/orange-apple-tomato-strawberry-fridge-ingredients)<br/>
 [Green & Red Peppers dataset](https://universe.roboflow.com/deluxeviper/peppers-makesense)
 
-
-
-
-
-
 #### Model Results
 The 4 ingredient (Orange, Apple, Tomato, Strawberry) ML Model results
-Dataset statistics: 3.8k training images (73%), 876 validation images (19%), 432 testing images (8%). Trained for 55 epochs
+Dataset statistics: 
+- 3.8k training images (73%), 876 validation images (19%), 432 testing images (8%) - Trained for 55 epochs
+- Results:
+   - Precision: 90.5%
+   - Recall: 89.7%
+   - mAP@0.5: 94.5%
+   - mAP@.5:.95: 72.6%
 
+<img src="https://user-images.githubusercontent.com/60635737/236084388-248c0fb1-1a47-4c6c-ad74-3f11ec257e2f.png"  width="300" height="200">
+
+<img src="https://user-images.githubusercontent.com/60635737/236084576-3aee0567-9e2c-4bdd-9317-73c9a7662c1b.png"  width="300" height="200">
+
+<img src="https://user-images.githubusercontent.com/60635737/236084649-582bc15e-3c4f-4084-a2c3-0e959bdc3f2f.png"  width="300" height="200">
+
+The Green + Red Pepper results
+Dataset statistics: 
+- 726 training images (80%), 132 validation images (15%), 45 testing images (5%)
+- Trained for 55 epochs
+- Results:
+   - Precision: 87.3%
+   - Recall: 84.7%
+   - mAP@0.5: 90.5%
+   - mAP@.5:.95: 68.4%
+
+
+<img src="https://user-images.githubusercontent.com/60635737/236085144-9565f943-3ab7-496f-bd41-ebdb19f0b07c.png"  width="300" height="200">
+
+<img src="https://user-images.githubusercontent.com/60635737/236085210-8f17c0d9-010f-443b-b5a1-9c3297f3804f.png"  width="300" height="200">
+
+<img src="https://user-images.githubusercontent.com/60635737/236085265-7ec01d27-88bb-4e15-97d9-58a668239e09.png"  width="300" height="200">
 
 Credits to myself for leading the Machine Learning effort.
 
@@ -113,6 +135,33 @@ The following sequence diagram describes the communication between the actor and
  
 
 #### Web Application
+
+Registration page for Fridges:
+
+![Screenshot 2023-05-03 at 9 31 17 PM](https://user-images.githubusercontent.com/60635737/236088958-e5f55a6d-f9f6-4f9d-8b92-c40b399a321c.png)
+
+User Interface Dashboard View:
+
+![Screenshot 2023-05-03 at 9 32 00 PM](https://user-images.githubusercontent.com/60635737/236089013-dab53100-52b8-4680-b115-d362d4adb6a8.png)
+
+Recipe Recommender (proof of concept):
+![Screenshot 2023-05-03 at 9 40 55 PM](https://user-images.githubusercontent.com/60635737/236090651-8d680476-07e4-495f-8163-9a32136b51d2.png)
+
+#### Still image object detection 
+
+I created a script using the Luxonis SDK to capture still images upon a certain condition being met, and this condition could have been something such as a keyboard press (in our case it was the light sensor not having detected any light). To create this script, as it had not been done before, I had to utilize a visual graph tool that displays the pipeline of the script (ODL still image yolo detection script linked in the github [2]).<br/>
+The pipeline in figure B below depicts the final flow of the still image YOLO detection script. The “XLinkIn” node represents the capture command queue providing an input to the “inputControl” input of the ColorCamera node. The ColorCamera then outputs the still image to an image manipulation node that converts the image size to the correct size (we used 640x640). Then the output image (with a size that correctly corresponds to the detection network) sends the image to the YOLO detection network that then extracts detections from it and produces 2 outputs. The first output is the frame output – this could include bounding boxes for the image – however for our use case only the image was needed for the passthrough output, and the actual output produced detection values that then provided objects that were detected, the count, confidence values, and more.
+
+Initially, a pipeline that looked like this below (figure A) was not working due to input tensor exceeding a certain data range that the detection network accepted.
+
+![Figure A](https://user-images.githubusercontent.com/60635737/236088481-490724d4-0bda-4791-8288-7e353b67521b.png)
+Figure A - Initial pipeline (not working)
+
+After much deliberation, simply placing an Image manipulation node between the output of the still image channel and the detection network fixed this issue.
+
+![Figure B](https://user-images.githubusercontent.com/60635737/236088884-9f664a32-903c-477a-a8c9-8c271e661613.png)
+Figure B - Final ODL still image pipeline (working)
+
 
 Credits to my capstone partner @vargheserg for collaborating on the ideation and implementation of the flask server, the firebase communication, as well as the web application. Credits to myself for implementing still image detection on the updater script and briefly assisting with web application + firebase on snapshot update listener.
 
@@ -135,5 +184,5 @@ Initial design to attach to fridge with double sided tape.
 Alternative design to hang off shelf of fridge door.
 ![Screenshot 2023-05-03 at 8 02 09 PM](https://user-images.githubusercontent.com/60635737/236076275-2ab76723-9022-40c9-a747-a7cf094470d3.png)
 
-Credits to my capstone partner Brian Lee for composing (via AutoCAD) and 3D printing these mount designs.
+Credits to my capstone partner @Brian-kyoudong-lee for composing (via AutoCAD) and 3D printing these mount designs.
 
