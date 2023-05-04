@@ -2,8 +2,7 @@
 
 # SmartFridgeAddOn
 
-My Computer Engineering undergraduate capstone project (spanning over two semesters) consisted of a full semester consisting of the research phase, as well as a full semester for the implementation phase. Our project was to design a system of components that could make a fridge smart through ingredient detection and recipe recommendation. In this README I've attempted to summarize our accomplishments over the 2 semesters, focusing primarily on the implementation phase.
-
+My Computer Engineering undergraduate capstone project epitomized the Engineering Design Process that spanned over two semesters, consisting of a full semester dedicated to the research phase, and another full semester for the implementation. Our objective was to design an add-on package for existing fridges through an easy to install hardware rig coupled with an intelligent cloud-based analysis software that could turn any fridge into a 'smart' one.
 
 _Credits to my capstone group members: @vargheserg, @Brian-kyoudong-lee, @ashwin2310_
 
