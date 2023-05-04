@@ -6,7 +6,7 @@ My Computer Engineering undergraduate capstone project - A device that can make 
 
 Credits to my capstone group members: @vargheserg, @Brian-kyoudong-lee
 
-Architecture of our device & system:
+Architecture of our device & system:<br/>
 <img src="https://user-images.githubusercontent.com/60635737/235825009-8d54c7c8-03c2-4646-8a81-04571b2ad245.png"  width="500" height="400"/>
 
 Demo of our device in a cooler (for proof of concept):
@@ -25,16 +25,21 @@ https://user-images.githubusercontent.com/60635737/236096722-07c71b13-e21a-4577-
 - **Software**
   - _Web Application_ -> a web application that allows the user to view & count detected ingredients, in addition to view recipe recommendations -- built through React + Firebase Auth + Firestore cloud firestore database ([Web application github](https://github.com/vargheserg/smart-fridge-ui))
   - _Flask server_ -> a flask server that lives on the device that is used to register and deregister fridges for users
+    - Once registered, you can access your fridge from anywhere
   - _Still image capture script_ -> a script that captures a still image and feeds this information to Firebase
+     - Smart image capture (when the fridge door closes) via still image object detection through Luxonis SDK
   - _Bash scripts_ -> scripts that allow the Flask server and the still image detecting process to commence on startup and graciously exit
 - **Machine Learning** -> a custom-trained YOLOv7 model to detect and count ingredients
-  - Manually labelled datasets of 6 ingredients with 6000 images in total (over 19,000 labels) including Oranges, Apples, Tomatoes, Strawberries, Green Peppers, Red Peppers
+  - Custom & manually labelled datasets of 6 ingredients with 6000 images in total (over 19,000 labels) including Oranges, Apples, Tomatoes, Strawberries, Green Peppers, Red Peppers
   - Four ingredients (Oranges, Apples, Tomatoes, Strawberries) boast an average precision of 90% when trained on the state-of-the-art YOLOv7 model
+  - On-device ML model deployment (able to deploy a 300MB YOLOv7 model on a Raspberry Pi 2 W)
 - **Hardware** -> boasts a low-powered device that can run large Neural Networks on-device
-  - Uses a Raspberry Pi Zero 2 W for minimal power consumption (5.4 Watts)
+  - Boasts a low-powered embedded system, featuring a Raspberry Pi Zero 2 W for minimal power consumption (5.4 Watts) & minimal RAM (512 MB)
   - An Oak-D-Lite camera for on-device Neural Network inferencing and custom-built pipelines
   - A light sensor and an LED for a "smart" image capture functionality
-- **Mechanical** -> a custom made mount for the fridge door
+  - Cloud-centralized system, no bluetooth required
+  - Initial registration done on LAN
+- **Mechanical** -> 2 custom made mounts for the fridge door
 
 ## Overview
 Technologies utilizing the Internet of Things (IoT) have been exponentially growing in the technological market over the past several years. Research has shown that businesses who use IoT technologies have starkly increased from 13 percent all the way back in 2014 to approximately 25 percent in 2017 [17]. The IoT market is anticipated to grow from approximately US$ 483.28 billion in 2022 to US$ 2.2 trillion by 2028 [19]. The rising prominence of both IoT and machine learning has enabled us to apply these technological advances to fridges, and our project proposes to make fridges “smart” through a portable device that can easily attach to the fridge with intelligent cloud processing.<br/><br/>
@@ -42,25 +47,6 @@ Technologies utilizing the Internet of Things (IoT) have been exponentially grow
         	The Smart-Fridge Add-on also provides a seamless flow with the device being able to initially register itself through local Wi-fi with a specific user on the web application. Shortly after the registration, the device becomes equipped with the capability to perform object detection and dispatch these detected objects to the cloud-deployed database. The web application will then harmoniously update to reflect the database changes on the user-interface.<br/><br/>
         	This project also introduces a novel method to capture objects within the fridge. Instead of real-time object detection that occurs perpetually, creating an unnecessarily large chunk of useless data as well as consuming substantially more power, the Smart-Fridge Add-on will only capture still images and perform object detection on those still images, and only when the fridge’s door is closed. This was implemented using a light sensor and an LED placed near the device, as well as custom developed Python scripts detecting lighting conditions and performing still capture using that.<br/><br/>
             With this simple cloud-based contraption, the end user will be able to coherently turn a normal fridge into a fridge inventory tracker, a recipe constructor, a recipe recommender, a remote fridge monitor, and much more.<br/><br/>
-
-## Brief overview of features
-
-### Machine Learning features
-- On-device ML model deployment (able to deploy a 300MB YOLOv7 model on a Raspberry Pi 2 W)
-- State-of-the-art YOLOv7 model used for object detection
-- Custom labelled dataset for YOLOv7 model
-- 
-
-### Software features
-- Smart image capture (when the fridge door closes) via still image object detection through Luxonis SDK
-- Once registered, you can access your fridge from anywhere
-
-### Hardware features
-- Low-powerered embedded system (only 5.4 Watts on average)
-- 2 custom mounting designs (both hangs on fridge door and can stick to fridge)
-- Cloud-based connection, no bluetooth required
-
-
 
 ## Technical Design
 
@@ -141,6 +127,20 @@ Credits to myself for leading the Machine Learning effort.
 
 ### Software
 
+#### Tools used:
+- Figma
+- React
+- CSS
+- Bootstrap
+- Firebase Authentication
+- Firebase Cloudstore database
+- Python
+- Flask
+- Luxonis SDK
+- Multithreading
+- Bash scripts
+- Raspbian (Debian Linux)
+
 The following block diagram displays the standalone design between a user interface and the smart fridge add-on, as well as the usage of an external API for extended functions.
 
 ![Screenshot 2023-05-03 at 7 45 34 PM](https://user-images.githubusercontent.com/60635737/236074587-4a341476-f3f3-459d-a494-4de02c748400.png)
@@ -154,6 +154,9 @@ The following sequence diagram describes the communication between the actor and
  
 
 #### Web Application
+
+Login/Authentication page:
+![Screenshot 2023-05-03 at 10 25 44 PM](https://user-images.githubusercontent.com/60635737/236097612-0a278383-a9a4-462e-b4c5-7997c71a0b24.png)
 
 Registration page for Fridges:
 
@@ -186,6 +189,15 @@ Credits to my capstone partner @vargheserg for collaborating on the ideation and
 
 
 ### Hardware
+
+#### Tools used
+- Raspberry Pi Zero 2 W
+- Oak-D-Lite
+- RS-281x LED strip
+- Light Sensor
+- Jumper cables
+- 3D printer
+- Solder
 
 For the hardware component selection, we decided that the main components will be the Oak-D-Lite and the Raspberry Pi Zero 2 W. Although this is a prototype, we thought the combination of components would be the best for commercialization in the future.<br/>
 In our hardware selection, we had an emphasis for a compact size, low power usage, and ease of installation to provide our priority on portability. Meanwhile, we also looked for simplistic design, as well as a balance between price, performance, and power for a hypothetical scaling production.<br/>
