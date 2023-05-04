@@ -92,7 +92,9 @@ Roboflow was the main application of choice as once the dataset was categorized,
 [Strawberry dataset](https://universe.roboflow.com/deluxeviper/strawberry-fridge-ingredients)<br/>
 [Orange & Apple dataset](https://universe.roboflow.com/deluxeviper/orange-apple-fridge-ingredients)<br/>
 [Orange & Apple & Tomato & Strawberry dataset](https://universe.roboflow.com/deluxeviper/orange-apple-tomato-strawberry-fridge-ingredients)<br/>
-[Green & Red Peppers dataset](https://universe.roboflow.com/deluxeviper/peppers-makesense)
+[Orange & Apple & Tomato & Strawberry augmented dataset](https://universe.roboflow.com/fridge-okncx/4ingr)<br/>
+[Green & Red Peppers dataset](https://universe.roboflow.com/deluxeviper/peppers-makesense)<br/>
+
 
 #### Model Results
 The 4 ingredient (Orange, Apple, Tomato, Strawberry) ML Model results
@@ -104,11 +106,11 @@ Dataset statistics:
    - mAP@0.5: 94.5%
    - mAP@.5:.95: 72.6%
 
-<img src="https://user-images.githubusercontent.com/60635737/236084388-248c0fb1-1a47-4c6c-ad74-3f11ec257e2f.png"  width="300" height="200">
+<img src="https://user-images.githubusercontent.com/60635737/236084388-248c0fb1-1a47-4c6c-ad74-3f11ec257e2f.png"  width="400" height="300">
 
-<img src="https://user-images.githubusercontent.com/60635737/236084576-3aee0567-9e2c-4bdd-9317-73c9a7662c1b.png"  width="300" height="200">
+<img src="https://user-images.githubusercontent.com/60635737/236084576-3aee0567-9e2c-4bdd-9317-73c9a7662c1b.png"  width="400" height="300">
 
-<img src="https://user-images.githubusercontent.com/60635737/236084649-582bc15e-3c4f-4084-a2c3-0e959bdc3f2f.png"  width="300" height="200">
+<img src="https://user-images.githubusercontent.com/60635737/236084649-582bc15e-3c4f-4084-a2c3-0e959bdc3f2f.png"  width="400" height="300">
 
 The Green + Red Pepper results
 Dataset statistics: 
@@ -121,11 +123,11 @@ Dataset statistics:
    - mAP@.5:.95: 68.4%
 
 
-<img src="https://user-images.githubusercontent.com/60635737/236085144-9565f943-3ab7-496f-bd41-ebdb19f0b07c.png"  width="300" height="200">
+<img src="https://user-images.githubusercontent.com/60635737/236085144-9565f943-3ab7-496f-bd41-ebdb19f0b07c.png"  width="400" height="300">
 
-<img src="https://user-images.githubusercontent.com/60635737/236085210-8f17c0d9-010f-443b-b5a1-9c3297f3804f.png"  width="300" height="200">
+<img src="https://user-images.githubusercontent.com/60635737/236085210-8f17c0d9-010f-443b-b5a1-9c3297f3804f.png"  width="400" height="300">
 
-<img src="https://user-images.githubusercontent.com/60635737/236085265-7ec01d27-88bb-4e15-97d9-58a668239e09.png"  width="300" height="200">
+<img src="https://user-images.githubusercontent.com/60635737/236085265-7ec01d27-88bb-4e15-97d9-58a668239e09.png"  width="400" height="300">
 
 Credits to myself for leading the Machine Learning effort.
 
