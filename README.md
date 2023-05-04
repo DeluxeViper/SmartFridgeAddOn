@@ -15,7 +15,10 @@ Demo of our device in a cooler (for proof of concept):
 
 Demo video of our device in a cooler (for proof of concept):
 
-<video src="/demo/SmartFridgeAddOn_mov.mov" controls="controls"></video>
+(note: still image detection can be seen in this video here by the LED flash as the door closes)
+
+https://user-images.githubusercontent.com/60635737/236094485-60b54f6c-aa7c-4709-9b9b-6c445b75c214.mov
+
 
 ## TLDR
 
