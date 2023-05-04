@@ -2,11 +2,12 @@
 
 # SmartFridgeAddOn
 
-My Computer Engineering undergraduate capstone project - A device that can make a fridge smart through ingredient detection and recipe recommendation.
+My Computer Engineering undergraduate capstone project (spanning over two semesters) consisted of a full semester consisting of the research phase, as well as a full semester for the implementation phase. Our project was to design a system of components that could make a fridge smart through ingredient detection and recipe recommendation. In this README I've attempted to summarize our accomplishments over the 2 semesters, focusing primarily on the implementation phase.
 
-Credits to my capstone group members: @vargheserg, @Brian-kyoudong-lee
 
-Architecture of our device & system:<br/>
+_Credits to my capstone group members: @vargheserg, @Brian-kyoudong-lee, @ashwin2310_
+
+Architecture of our device & system:<br/><br/>
 <img src="https://user-images.githubusercontent.com/60635737/235825009-8d54c7c8-03c2-4646-8a81-04571b2ad245.png"  width="500" height="400"/>
 
 Demo of our device in a cooler (for proof of concept):
@@ -40,6 +41,10 @@ https://user-images.githubusercontent.com/60635737/236096722-07c71b13-e21a-4577-
   - Cloud-centralized system, no bluetooth required
   - Initial registration done on LAN
 - **Mechanical** -> 2 custom made mounts for the fridge door
+- **Team Organization**
+  - Team was generally organized through the following tools:
+    - Gantt chart
+    - Jira
 
 ## Overview
 Technologies utilizing the Internet of Things (IoT) have been exponentially growing in the technological market over the past several years. Research has shown that businesses who use IoT technologies have starkly increased from 13 percent all the way back in 2014 to approximately 25 percent in 2017 [17]. The IoT market is anticipated to grow from approximately US$ 483.28 billion in 2022 to US$ 2.2 trillion by 2028 [19]. The rising prominence of both IoT and machine learning has enabled us to apply these technological advances to fridges, and our project proposes to make fridges “smart” through a portable device that can easily attach to the fridge with intelligent cloud processing.<br/><br/>
@@ -78,11 +83,10 @@ The method used to collect datasets was one that involved Roboflow utilizing Rob
 
 Roboflow was the main application of choice as once the dataset was categorized, the application is able to directly parse through a data.yaml file and assign them into a 70-20-10 train, test and validation percentage split (this split is also customizable via Roboflow). The images can also have augmentations applied and further manually annotated and finally generated into separate versions that could be tested on a YOLOv7 script by using a Roboflow API key. The figures shown below demonstrate how Roboflow displays datasets once finalized and how the user is able to download it.
 
-**Here are the list of datasets that I compiled and manually checked and labelled:**
+**Here are the list of datasets that I compiled from other datasets and manually checked and labelled:**
 
 [Apple dataset](https://universe.roboflow.com/deluxeviper/fridge-ingredients-apple)<br/>
-[Orange dataset](https://universe.roboflow.com/deluxeviper/orange-fridge-ingredients)
-- Sample results: 1599 images, trained for 55 epochs using Yolov7, produced 98% mAP@0.5, 96% P, 97% R
+[Orange dataset](https://universe.roboflow.com/deluxeviper/orange-fridge-ingredients), sample results for the Orange dataset: 1599 images, trained for 55 epochs using Yolov7, produced 98% mAP@0.5, 96% P, 97% R
 <br/>
 [Tomato dataset](https://universe.roboflow.com/deluxeviper/tomato-fridge-ingredients)<br/>
 [Strawberry dataset](https://universe.roboflow.com/deluxeviper/strawberry-fridge-ingredients)<br/>
@@ -140,6 +144,7 @@ Credits to myself for leading the Machine Learning effort.
 - Multithreading
 - Bash scripts
 - Raspbian (Debian Linux)
+- Postman
 
 The following block diagram displays the standalone design between a user interface and the smart fridge add-on, as well as the usage of an external API for extended functions.
 
@@ -203,6 +208,13 @@ For the hardware component selection, we decided that the main components will b
 In our hardware selection, we had an emphasis for a compact size, low power usage, and ease of installation to provide our priority on portability. Meanwhile, we also looked for simplistic design, as well as a balance between price, performance, and power for a hypothetical scaling production.<br/>
 Our main ML computing module is the Oak-D-Lite. We decided on going with the Oak-D-Lite because the majority of the Raspberry Pi models did not have the processing power for local ML processing. Although the Google Coral and the Nvidia Jetson Nano provide stronger compute options, the Oak-D-Lite can provide comparable processing while providing us with built in stereo cameras. This allows for us to do depth sensing. It’s additionally smaller in comparison to the provided alternatives. In terms of price, the Oak-D-Lite is the cheapest out of all of the competing ML computing devices. Although the power usage could have been an issue, the other alternatives share the same problem so this was not considered in our selection process. <br/>
 We decided on using a simple Raspberry Pi Zero 2 W as our interfacing device for communicating the Oak-D-Lite, Firebase, and our UI in the registration process. Out of all the Raspberry Pi’s considered, the Raspberry Pi Zero was the most compact computer with all the features and ports we require for our use case.<br/>
+
+#### Temperature Analysis of the Oak-D-Lite
+
+Taken from the Oak D-Lite Website, “The operating temperature range of the Robotics Vision Core 2 (die temperature) is -40 °C to 105 °C”. The idle temperature is approximately 35 °C and the camera sensor has an operating temperature of -30 °C to 70 °C. The manufacturer's stress test shows that on maximum load the enclosure reaches 55.7°C and the Chip reaches 73.53°C. As we see in the thermal camera image we can see no active cooling being used and Oak-D-Lite doing an acceptable job with dissipating the heat on its own. W
+
+![Screenshot 2023-05-03 at 10 38 22 PM](https://user-images.githubusercontent.com/60635737/236098840-bcd6c46f-db64-4813-83b7-61dd74b8e852.png)
+
 
 Credit to my capstone partner Brian Lee for choosing the hardware components and to myself for implementing them.
 
