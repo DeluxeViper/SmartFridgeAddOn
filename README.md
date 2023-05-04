@@ -10,7 +10,7 @@ _Credits to my capstone group members: @vargheserg, @Brian-kyoudong-lee, @ashwin
 Architecture of our device & system:<br/><br/>
 <img src="https://user-images.githubusercontent.com/60635737/235825009-8d54c7c8-03c2-4646-8a81-04571b2ad245.png"  width="500" height="400"/>
 
-Demo of our device in a cooler (for proof of concept):
+Demo image of our device in a cooler (for proof of concept):
 
 <img src="/demo/SmartFridgeAddOn_demo_img.jpg"/>
 
