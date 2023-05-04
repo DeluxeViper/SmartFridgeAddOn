@@ -67,11 +67,18 @@ Technologies utilizing the Internet of Things (IoT) have been exponentially grow
 
 ### Machine Learning
 
+#### Tools utilized:
+- Roboflow
+- Google Colab
+- Python
+- Pytorch
+- Yolov7
+- FiftyOne
+
 #### Machine Learning Model Choice
 
 Although initially YOLOv5 was chosen to be the detection algorithm of choice, the decision was later modified to adopt YOLOv7 as the primary training algorithm due to the higher level of accuracy (higher AP values) and its increased speed (image processing at 155 frames per second as opposed to baseline YOLO’s 45 fps). This model also adopts similar characteristics from the previous generations of the YOLO family and the improvements are present in the backend, thereby making the transition from YOLOv5 to YOLOv7 a seamless process. In terms of testing, the process remains exactly the same, with just an improvement in precision and computation.<br/>
 The key improvement for YOLOv7 comes from the use of a new loss function (focal loss). From previous iterations utilizing a standard cross-entropy loss function, this new loss function improves detection of small objects as well-classified examples are down-weighted and the harder examples are given a greater level of emphasis. The image processing is also done at a higher resolution (608 x 608 pixels) when compared to a previous iteration such as YOLOv3 (416 x 416 pixels). This increased resolution also drastically helps the newer model to detect smaller objects with higher accuracy [15]. The following two images below show the layer aggression scheme and the speed improvements for YOLOv7
-
 
 #### Datasets
 
@@ -89,7 +96,9 @@ Roboflow was the main application of choice as once the dataset was categorized,
 **Here are the list of datasets that I compiled and manually checked and labelled:**
 
 [Apple dataset](https://universe.roboflow.com/deluxeviper/fridge-ingredients-apple)<br/>
-[Orange dataset](https://universe.roboflow.com/deluxeviper/orange-fridge-ingredients)<br/>
+[Orange dataset](https://universe.roboflow.com/deluxeviper/orange-fridge-ingredients)
+- Sample results: 1599 images, trained for 55 epochs using Yolov7, produced 98% mAP@0.5, 96% P, 97% R
+<br/>
 [Tomato dataset](https://universe.roboflow.com/deluxeviper/tomato-fridge-ingredients)<br/>
 [Strawberry dataset](https://universe.roboflow.com/deluxeviper/strawberry-fridge-ingredients)<br/>
 [Orange & Apple dataset](https://universe.roboflow.com/deluxeviper/orange-apple-fridge-ingredients)<br/>
