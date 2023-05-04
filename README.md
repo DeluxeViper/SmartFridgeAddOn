@@ -17,10 +17,9 @@ Demo video of our device in a cooler (for proof of concept):
 
 (note: still image detection can be seen in this video here by the LED flash as the door closes)
 
-https://user-images.githubusercontent.com/60635737/236094485-60b54f6c-aa7c-4709-9b9b-6c445b75c214.mov
+https://user-images.githubusercontent.com/60635737/236096722-07c71b13-e21a-4577-87eb-a6ea1e144cc6.mov
 
-
-## TLDR
+## TLDR/Features
 
 - This project exhibits an add-on gadget that makes any ordinary smart
 - **Software**
